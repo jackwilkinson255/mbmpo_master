@@ -10,7 +10,8 @@ from sandbox.ours.algos.ModelMAML.model_maml_trpo import ModelMAMLTRPO
 from experiments.helpers.ec2_helpers import cheapest_subnets
 from experiments.helpers.run_multi_gpu import run_multi_gpu
 
-from sandbox.ours.envs.sawyer import SawyerReachXYZEnv, SawyerPickAndPlaceEnv, SawyerReachTorqueEnv, SawyerPushAndReachXYZEnv
+# from sandbox.ours.envs.sawyer import SawyerReachXYZEnv, SawyerPickAndPlaceEnv, SawyerReachTorqueEnv, SawyerPushAndReachXYZEnv
+from sandbox.ours.envs.sawyer import SawyerReachTorqueEnv
 
 
 import tensorflow as tf

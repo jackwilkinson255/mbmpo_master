@@ -1,6 +1,7 @@
 from collections import OrderedDict
 import numpy as np
 from gym.spaces import Dict
+
 from rllab.spaces import Box
 from rllab.misc import logger
 
